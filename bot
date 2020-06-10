@@ -19,7 +19,7 @@ headers = {
 }
 
 # Enfin on construit notre requête
-req = request.Request(url=https://discordapp.com/api/webhooks/720067868447866880/FmMAOmt3JQot5Nj-6sA13mGt_9Dr4Tbbd2O9gCUKU-x3aWFkKK5Z-WO0ZOO-4mvB_iWB,
+req = request.Request(url=WEBHOOK_URL,
                       data=json.dumps(payload).encode('utf-8'),
                       headers=headers,
                       method='POST')
