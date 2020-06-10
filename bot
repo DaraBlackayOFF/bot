@@ -9,7 +9,7 @@ WEBHOOK_URL = 'https://discordapp.com/api/webhooks/720067868447866880/FmMAOmt3JQ
 
 # La payload
 payload = {
-    'content': "Salut les z'agrumes ! Ça zeste ?"
+    'content': "yo"
 }
 
 # Les paramètres d'en-tête de la requête
